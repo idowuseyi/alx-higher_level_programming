@@ -1,4 +1,6 @@
 #include "lists.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  *check_cycle - check whether a list is cyclic or not
@@ -7,7 +9,7 @@
  *Description: mdldndkdbfkml
  *Return: return 0 if no cycle and return 1 if cycle
  */
-int check_cycle(listint_t *list)
+int check_cycle(listint_t *head)
 {
 	listint_t *fast = head, *slow = head;
 
@@ -22,8 +24,8 @@ int check_cycle(listint_t *list)
 	}
 	/* Loop not found */
 	if (slow != fast)
-		printf("Linked list has no cycle");
-		return (0);
+		printf("Linked list has no cycle\n");
+	return (0);
 	/* loop found - find start */
 	slow = head;
 	while (slow != fast)
@@ -31,6 +33,6 @@ int check_cycle(listint_t *list)
 		slow = slow->next;
 		fast = fast->next;
 	}
-	printf("Linked list has a cycle");
+	printf("Linked list has a cycle\n");
 	return (1);
 }
