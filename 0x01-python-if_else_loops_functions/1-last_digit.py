@@ -7,9 +7,11 @@ if number > 0 and last_digit > 5:
 elif number > 0 and last_digit == 0:
     print(f"Last digit of {number} is {last_digit} and is 0")
 elif number > 0 and last_digit <= 5:
-    print(f"Last digit of {number} is {last_digit} and is less than 6 & not 0")
+    print(f"Last digit of {number} is {last_digit} \
+and is less than 6 and not 0")
 else:
     neg = abs(number)
     lastn_digit = neg % 10
     used_digit = -abs(lastn_digit)
-    print(f"Last digit of {number} is {used_digit} and is less than 6 & not 0")
+    print(f"Last digit of {number} is {used_digit} \
+and is less than 6 and not 0")
