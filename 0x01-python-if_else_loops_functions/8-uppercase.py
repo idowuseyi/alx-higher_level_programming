@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def uppercase(str)
+def uppercase(str):
     for c in range(0, len(str)):
         if ord(str[c]) >= 97 and ord(str[c]) <=122:
         ord[c] -= 32
