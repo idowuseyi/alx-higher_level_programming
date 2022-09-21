@@ -6,5 +6,3 @@ for i in range(0, 100):
     else:
         print("{}{} ".format(str(i).zfill(2), sep), end='')
     i += 1
-
-
