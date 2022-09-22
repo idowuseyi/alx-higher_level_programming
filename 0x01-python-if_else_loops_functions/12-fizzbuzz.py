@@ -1,14 +1,14 @@
 #!/usr/bin/python3
 def fizzbuzz():
     for num in range(1, 101):
-        if num % 3 == 0:
-            num = 'fizz'
-           # print("{} ".format(num), end='')
+        if num % 3 == 0 and num % 5 == 0:
+            num = 'FizzBuzz'
+            print("{} ".format(num), end='')
         elif num % 5 == 0:
             num = 'Buzz'
-        elif num % 3 == num % 5:
-            num = 'FizzBuzz'
+            print("{} ".format(num), end='')
+        elif num % 3 == 0:
+            num = 'Fizz'
+            print("{} ".format(num), end='')
         else:
-            num = num
-        print("{} ".format(num), end='')
-
+            print("{} ".format(num), end='')
