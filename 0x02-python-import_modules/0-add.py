@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 # importing add_o from its file
-import add_0 as add_num
-# assigning variables
-a = 1
-b = 2
-# create a class object
-object = add_num.seyi()
-# printing the result
-print(f"{a} + {b} = {object.add(a, b)}")
+def main():
+    import add_0 as add_num
+    # assigning variable
+    a = 1
+    b = 2
+    # printing the result
+    print(f"{a} + {b} = {add_num.add(a, b)}")
+if __name__ == "__main__":
+    main()
