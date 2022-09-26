@@ -8,9 +8,7 @@
  * *
  * * Return: returns pointer to new node
  * */
-listint_t
-*insert_node(listint_t
-		**head, int n)
+listint_t *insert_node(listint_t **head, int n)
 {
 	listint_t *new, *tmp, *prev;
 
