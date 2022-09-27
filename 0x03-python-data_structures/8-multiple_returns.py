@@ -1,13 +1,13 @@
 #!/usr/bin/python3
+
 def multiple_returns(sentence):
-    list_tup = []
-    sen_tuple = ()
-    slen = len(sentence)
-    first_let = ""
-    if slen == 0:
-        first_let = None
-        list_tup = [first_let, slen]
-    else:
-        list_tup = [sentence[0], slen]
-    sen_tuple = tuple(list_tup)
-    return (sen_tuple)
+    """
+    find the length and first character of a str
+    Args:
+        sentence - a string
+    Return:
+        (length, first_char)
+    """
+    if not sentence:
+        return 0, None
+    return len(sentence), sentence[0]
