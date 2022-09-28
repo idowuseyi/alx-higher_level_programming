@@ -21,4 +21,4 @@ void free_listint(listint_t *head);
 int check_cycle(listint_t *list);
 listint_t *insert_node(listint_t **head, int number);
 
-#endif
+#endif /* LIST_H */
