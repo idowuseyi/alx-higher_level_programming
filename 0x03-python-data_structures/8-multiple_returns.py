@@ -8,6 +8,6 @@ def multiple_returns(sentence):
     Return:
         (length, first_char)
     """
-    if not sentence:
-        return 0, None
-    return len(sentence), sentence[0]
+    if sentence == "":
+        return (0, None)
+    return (len(sentence), sentence[0])
