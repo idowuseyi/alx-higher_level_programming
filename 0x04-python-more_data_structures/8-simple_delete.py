@@ -1,4 +1,6 @@
+#!/usr/bin/python3
 def simple_delete(a_dictionary, key=""):
+
 
 
 if __name__ == '__main__'
