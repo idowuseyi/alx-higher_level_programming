@@ -1,10 +1,12 @@
-def best_score(a_dictionary):
+#!/usr/bin/python3
 
-if __name__ == '__main__'
-
-a_dictionary = {'John': 12, 'Bob': 14, 'Mike': 14, 'Molly': 16, 'Adam': 10}
-best_key = best_score(a_dictionary)
-print("Best score: {}".format(best_key))
-
-best_key = best_score(None)
-print("Best score: {}".format(best_key))
+def best_score(a_dict):
+    """
+    find the key with the highes value
+    """
+    if a_dict is None or a_dict == {}:
+        return None
+    best = max(a_dict.values())
+    for key in a_dict.keys():
+        if a_dict[key] == best:
+            return key
