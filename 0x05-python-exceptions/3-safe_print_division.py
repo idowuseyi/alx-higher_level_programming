@@ -11,6 +11,7 @@ def safe_print_division(a, b):
         print("Inside result: {}".format(res))
 
 
+if __name__ == "__main__":
 a = 12
 b = -1
 result = safe_print_division(a, b)
