@@ -48,4 +48,3 @@ if __name__ == "__main__":
         print(my_square_4.__dict__)
     except Exception as e:
         print(e)
-
