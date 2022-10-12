@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Square class to represent a square"""
 
+
 class Square:
     """
     Defines a Square and its basic properties
@@ -14,7 +15,6 @@ class Square:
         :param size: int size of square
         """
         self.__size = size
-
 
 
 if __name__ == "__main__":
