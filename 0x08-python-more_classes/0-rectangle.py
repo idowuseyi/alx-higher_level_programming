@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""Square class to represent a square"""
+"""Rectangle class to represent a square"""
 
 
-class Square:
+class Rectangle:
     """
-    Defines a Square and its basic properties
+    Defines a Rectangle and its basic properties
     """
     pass
 
