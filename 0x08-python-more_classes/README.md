@@ -127,7 +127,7 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x08-python-more_classes
 File: 1-rectangle.py
    
-2. Area and Perimeter
+## 2. Area and Perimeter
 mandatory
 Write a class Rectangle that defines a rectangle by: (based on 1-rectangle.py)
 
