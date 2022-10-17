@@ -427,7 +427,7 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x08-python-more_classes
 File: 6-rectangle.py
    
-7. Change representation
+## 7. Change representation
 mandatory
 Write a class Rectangle that defines a rectangle by: (based on 6-rectangle.py)
 
