@@ -521,7 +521,7 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x08-python-more_classes
 File: 7-rectangle.py
    
-8. Compare rectangles
+## 8. Compare rectangles
 mandatory
 Write a class Rectangle that defines a rectangle by: (based on 7-rectangle.py)
 
