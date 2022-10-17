@@ -88,7 +88,7 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x08-python-more_classes
 File: 0-rectangle.py
    
-1. Real definition of a rectangle
+## 1. Real definition of a rectangle
 mandatory
 Write a class Rectangle that defines a rectangle by: (based on 0-rectangle.py)
 
