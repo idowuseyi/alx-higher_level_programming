@@ -323,7 +323,7 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x08-python-more_classes
 File: 4-rectangle.py
    
-5. Detect instance deletion
+## 5. Detect instance deletion
 mandatory
 Write a class Rectangle that defines a rectangle by: (based on 4-rectangle.py)
 
