@@ -233,7 +233,7 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x08-python-more_classes
 File: 3-rectangle.py
    
-4. Eval is magic
+## 4. Eval is magic
 mandatory
 Write a class Rectangle that defines a rectangle by: (based on 3-rectangle.py)
 
