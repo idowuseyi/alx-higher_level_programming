@@ -63,7 +63,7 @@ The length of your files will be tested using wc
 Quiz questions
 Great! You've completed the quiz successfully! Keep going! (Show quiz)
 Tasks
-0. Simple rectangle
+## 0. Simple rectangle
 mandatory
 Write an empty class Rectangle that defines a rectangle:
 
