@@ -1,7 +1,13 @@
 #!/usr/bin/python3
-class Rectangle:
-    """An empty rectangle class"""
+"""Square class to represent a square"""
+
+
+class Square:
+    """
+    Defines a Square and its basic properties
+    """
     pass
+
 
 if __name__ == "__main__":
     my_rectangle = Rectangle()
