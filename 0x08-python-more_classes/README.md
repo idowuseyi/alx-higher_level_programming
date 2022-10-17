@@ -1,6 +1,5 @@
 # 0x08. Python - More Classes and Objects
-Python
-OOP
+## Python OOP
  By: Guillaume
  Weight: 1
  Project will start Oct 16, 2022 10:00 PM, must end by Oct 17, 2022 10:00 PM
