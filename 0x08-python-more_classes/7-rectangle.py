@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 if __name__ == "__main__":
     my_rectangle_1 = Rectangle(8, 4)
     print(my_rectangle_1)
