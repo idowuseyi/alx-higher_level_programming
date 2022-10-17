@@ -590,7 +590,7 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x08-python-more_classes
 File: 8-rectangle.py
    
-9. A square is a rectangle
+## 9. A square is a rectangle
 mandatory
 Write a class Rectangle that defines a rectangle by: (based on 8-rectangle.py)
 
