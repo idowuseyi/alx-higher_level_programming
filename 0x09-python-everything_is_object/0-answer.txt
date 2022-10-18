@@ -1,1 +1,1 @@
-typew
+type
