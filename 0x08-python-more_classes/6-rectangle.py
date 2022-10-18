@@ -80,6 +80,8 @@ class Rectangle:
         """Print a message for every deletion of a Rectangle."""
         type(self).number_of_instances -= 1
         print("Bye rectangle...")
+
+
 if __name__ == "__main__":
     my_rectangle = Rectangle(2, 4)
     print("Area: {} - Perimeter: {}".format(my_rectangle.area(), my_rectangle.perimeter()))
