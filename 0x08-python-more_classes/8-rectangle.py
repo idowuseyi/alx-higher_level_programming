@@ -99,6 +99,8 @@ class Rectangle:
         """Print a message for every deletion of a Rectangle."""
         type(self).number_of_instances -= 1
         print("Bye rectangle...")
+
+
 if __name__ == "__main__":
     my_rectangle_1 = Rectangle(8, 4)
     my_rectangle_2 = Rectangle(2, 3)
