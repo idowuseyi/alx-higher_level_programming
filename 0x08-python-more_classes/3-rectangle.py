@@ -67,7 +67,8 @@ class Rectangle:
 
 if __name__ == "__main__":
     my_rectangle = Rectangle(2, 4)
-    print("Area: {} - Perimeter: {}".format(my_rectangle.area(), my_rectangle.perimeter()))
+    print("Area: {} - Perimeter: {}".format(my_rectangle.area(),
+          my_rectangle.perimeter()))
 
     print(str(my_rectangle))
     print(repr(my_rectangle))
