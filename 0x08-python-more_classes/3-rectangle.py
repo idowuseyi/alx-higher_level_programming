@@ -63,6 +63,8 @@ class Rectangle:
             if i != self.__height - 1:
                 rect.append("\n")
         return ("".join(rect))
+
+
 if __name__ == "__main__":
     my_rectangle = Rectangle(2, 4)
     print("Area: {} - Perimeter: {}".format(my_rectangle.area(), my_rectangle.perimeter()))
