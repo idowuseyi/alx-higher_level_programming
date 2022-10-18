@@ -12,9 +12,8 @@ class Rectangle:
         Innitialize the height of the rectangle
         :param width and height of the rectangle
         """
-        self.value = None
-        self.__width = width
-        self.__height = height
+        self.width = width
+        self.height = height
 
     def width(self, value):
         if value is None:
@@ -24,7 +23,7 @@ class Rectangle:
         elif value <= 0:
             raise ValueError('width must be >= 0')
         else:
-            self.value = value
+            self.__value = value
 
     def height(self, value):
         if value is None:
@@ -34,9 +33,7 @@ class Rectangle:
         elif value <= 0:
             raise ValueError('width must be >= 0')
         else:
-            self.value = value
-        self.value = value
-
+            self.__value = value
 
 
 if __name__ == "__main__":
