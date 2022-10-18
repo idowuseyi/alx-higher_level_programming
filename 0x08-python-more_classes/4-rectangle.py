@@ -69,6 +69,8 @@ class Rectangle:
         rect = "Rectangle(" + str(self.__width)
         rect += ", " + str(self.__height) + ")"
         return (rect)
+
+
 if __name__ == "__main__":
     my_rectangle = Rectangle(2, 4)
     print(str(my_rectangle))
