@@ -1,18 +1,8 @@
 # 0x07. Python - Test-driven development
 
-Python
-UnitTests
-TDD
+## Python	UnitTests	TDD
  By: Guillaume
  Weight: 1
- Project over - took place from Oct 13, 2022 6:00 AM to Oct 19, 2022 6:00 AM
- An auto review will be launched at the deadline
-In a nutshell…
-Auto QA review: 13.5/167 mandatory & 0.0/104 optional
-Altogether:  8.08%
-Mandatory: 8.08%
-Optional: 0.0%
-Calculation:  8.08% + (8.08% * 0.0%)  == 8.08%
 Concepts
 For this project, we expect you to look at this concept:
 
