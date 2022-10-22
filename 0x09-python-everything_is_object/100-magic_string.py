@@ -1,2 +1,3 @@
 def magic_string():
-    return "BestSchool " * i
+    list_n += ["BestSchool"]
+    return ", ".join(list_n)
