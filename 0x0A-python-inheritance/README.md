@@ -59,7 +59,7 @@ Do not use the works import or from inside your comments, the checker will think
 Quiz questions
 Great! You've completed the quiz successfully! Keep going! (Show quiz)
 Tasks
-0. Lookup
+## 0. Lookup
 mandatory
 Write a function that returns the list of available attributes and methods of an object:
 
