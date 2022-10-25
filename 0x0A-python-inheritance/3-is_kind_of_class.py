@@ -1,4 +1,3 @@
-lines (14 sloc)  497 Bytes
 #!/usr/bin/python3
 
 """Defines a class and inherited class-checking function."""
