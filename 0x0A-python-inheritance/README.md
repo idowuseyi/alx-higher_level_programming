@@ -8,14 +8,14 @@
 Resources
 Read or watch:
 
-Inheritance
+## Inheritance
 Multiple inheritance
 Inheritance in Python
 Learn to Program 10 : Inheritance Magic Methods
-Learning Objectives
+Lea555rning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-General
+## General
 Why Python programming is awesome
 What is a superclass, baseclass or parentclass
 What is a subclass
