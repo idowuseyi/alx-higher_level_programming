@@ -6,5 +6,4 @@ def read_file(filename=""):
     new_file = ""
     with open("filename") as f:
         for line in f:
-            new_file = print(line, end="")
-    return new_file
+            new_file = print(line, end="")e
