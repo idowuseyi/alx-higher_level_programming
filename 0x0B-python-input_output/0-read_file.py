@@ -3,7 +3,6 @@ def read_file(filename=""):
     """
     This finction read a file
     """
-    new_file = ""
-    with open("filename") as f:
+    with open('filename') as f:
         for line in f:
-            new_file = print(line, end="")e
+            print(line, end='')
