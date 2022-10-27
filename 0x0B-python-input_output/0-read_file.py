@@ -3,5 +3,4 @@
 def read_file(filename=""):
     with open(filenane, encoding="utf-8") as f:
         """ prints the file content """
-        for line in f:
-            print(f.read(), end="")
+        print(f.read(), end="")
