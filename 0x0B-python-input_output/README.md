@@ -1,7 +1,5 @@
 # 0x0B. Python - Input/Output
-Toggle navigation
-0x0B. Python - Input/Output
-Python
+
  By: Guillaume
  Weight: 1
 Resources
@@ -16,7 +14,7 @@ Automate the Boring Stuff with Python (ch. 8 p 180-183 and ch. 14 p 326-333)
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-General
+## General
 Why Python programming is awesome
 How to open a file
 How to write text in a file
@@ -85,15 +83,14 @@ A school every software engineer would have dreamt of!
 guillaume@ubuntu:~/0x0B$ 
 No test cases needed
 
-Repo:
+### Repo:
 
 GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
 File: 0-read_file.py
      
-1. Write to a file
+## 1. Write to a file
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
 Write a function that writes a string to a text file (UTF8) and returns the number of characters written:
 
 Prototype: def write_file(filename="", text=""):
@@ -116,15 +113,14 @@ This School is so cool!
 guillaume@ubuntu:~/0x0B$ 
 No test cases needed
 
-Repo:
+### Repo:
 
 GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
 File: 1-write_file.py
      
-2. Append to a file
+## 2. Append to a file
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
 Write a function that appends a string at the end of a text file (UTF8) and returns the number of characters added:
 
 Prototype: def append_write(filename="", text=""):
@@ -153,13 +149,13 @@ This School is so cool!
 guillaume@ubuntu:~/0x0B$ 
 No test cases needed
 
-Repo:
+### Repo:
 
 GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
 File: 2-append_write.py
      
-3. To JSON string
+## 3. To JSON string
 mandatory
 Score: 0.0% (Checks completed: 0.0%)
 Write a function that returns the JSON representation of an object (string):
@@ -206,15 +202,14 @@ guillaume@ubuntu:~/0x0B$ ./3-main.py
 guillaume@ubuntu:~/0x0B$ 
 No test cases needed
 
-Repo:
+### Repo:
 
 GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
 File: 3-to_json_string.py
      
-4. From JSON string to Object
+## 4. From JSON string to Object
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
 Write a function that returns an object (Python data structure) represented by a JSON string:
 
 Prototype: def from_json_string(my_str):
@@ -255,15 +250,14 @@ guillaume@ubuntu:~/0x0B$ ./4-main.py
 guillaume@ubuntu:~/0x0B$ 
 No test cases needed
 
-Repo:
+### Repo:
 
 GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
 File: 4-from_json_string.py
      
-5. Save Object to a file
+## 5. Save Object to a file
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
 Write a function that writes an Object to a text file, using a JSON representation:
 
 Prototype: def save_to_json_file(my_obj, filename):
@@ -309,13 +303,13 @@ guillaume@ubuntu:~/0x0B$ cat my_set.json ; echo ""
 guillaume@ubuntu:~/0x0B$ 
 No test cases needed
 
-Repo:
+### Repo:
 
 GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
 File: 5-save_to_json_file.py
      
-6. Create object from a JSON file
+## 6. Create object from a JSON file
 mandatory
 Score: 0.0% (Checks completed: 0.0%)
 Write a function that creates an Object from a “JSON file”:
@@ -372,15 +366,14 @@ guillaume@ubuntu:~/0x0B$ ./6-main.py
 guillaume@ubuntu:~/0x0B$ 
 No test cases needed
 
-Repo:
+### Repo:
 
 GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
 File: 6-load_from_json_file.py
      
-7. Load, add, save
+## 7. Load, add, save
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
 Write a script that adds all arguments to a Python list, and then save them to a file:
 
 You must use your function save_to_json_file from 5-save_to_json_file.py
@@ -402,13 +395,13 @@ guillaume@ubuntu:~/0x0B$ cat add_item.json ; echo ""
 guillaume@ubuntu:~/0x0B$ 
 No test cases needed
 
-Repo:
+### Repo:
 
 GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
 File: 7-add_item.py
      
-8. Class to JSON
+## 8. Class to JSON
 mandatory
 Score: 0.0% (Checks completed: 0.0%)
 Write a function that returns the dictionary description with simple data structure (list, dictionary, string, integer and boolean) for JSON serialization of an object:
@@ -500,15 +493,14 @@ guillaume@ubuntu:~/0x0B$ ./8-main_2.py
 guillaume@ubuntu:~/0x0B$
 No test cases needed
 
-Repo:
+### Repo:
 
 GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
 File: 8-class_to_json.py
      
-9. Student to JSON
+## 9. Student to JSON
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
 Write a class Student that defines a student by:
 
 Public instance attributes:
@@ -546,15 +538,15 @@ Bob
 guillaume@ubuntu:~/0x0B$ 
 No test cases needed
 
-Repo:
+### Repo:
 
 GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
 File: 9-student.py
      
-10. Student to JSON with filter
+## 10. Student to JSON with filter
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
+
 Write a class Student that defines a student by: (based on 9-student.py)
 
 Public instance attributes:
@@ -588,15 +580,14 @@ guillaume@ubuntu:~/0x0B$ ./10-main.py
 guillaume@ubuntu:~/0x0B$
 No test cases needed
 
-Repo:
+### Repo:
 
 GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
 File: 10-student.py
      
-11. Student to disk and reload
+## 11. Student to disk and reload
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
 Write a class Student that defines a student by: (based on 10-student.py)
 
 Public instance attributes:
@@ -679,15 +670,14 @@ guillaume@ubuntu:~/0x0B$ cat student.json ; echo ""
 guillaume@ubuntu:~/0x0B$ 
 No test cases needed
 
-Repo:
+### Repo:
 
 GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
 File: 11-student.py
      
-12. Pascal's Triangle
+## 12. Pascal's Triangle
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
 Technical interview preparation:
 
 You are not allowed to google anything
@@ -723,7 +713,7 @@ guillaume@ubuntu:~/0x0B$ ./12-main.py
 [1,3,3,1]
 [1,4,6,4,1]
 guillaume@ubuntu:~/0x0B$ 
-Repo:
+### Repo:
 
 GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
