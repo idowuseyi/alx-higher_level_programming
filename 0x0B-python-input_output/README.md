@@ -55,9 +55,8 @@ All your functions (inside and outside a class) should have a documentation (pyt
 A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
 We strongly encourage you to work together on test cases, so that you don’t miss any edge case
 Tasks
-0. Read file
+## 0. Read file
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
 Write a function that reads a text file (UTF8) and prints it to stdout:
 
 Prototype: def read_file(filename=""):
