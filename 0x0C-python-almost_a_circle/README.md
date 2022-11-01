@@ -1,6 +1,5 @@
-0x0C. Python - Almost a circle
-Python
-OOP
+# 0x0C. Python - Almost a circle
+## Python	OOP
  By: Guillaume
  Weight: 1
  Project will start Oct 27, 2022 6:00 AM, must end by Nov 1, 2022 6:00 AM
@@ -74,8 +73,8 @@ Your file organization in the tests folder should be the same as your project: e
 All your tests should be executed by using this command: python3 -m unittest discover tests
 You can also test file by file by using this command: python3 -m unittest tests/test_models/test_base.py
 We strongly encourage you to work together on test cases so that you don’t miss any edge case
-Tasks
-0. If it's not tested it doesn't work
+## Tasks
+## 0. If it's not tested it doesn't work
 mandatory
 All your files, classes and methods must be unit tested and be PEP 8 validated.
 
@@ -90,13 +89,13 @@ OK
 guillaume@ubuntu:~/$
 Note that this is just an example. The number of tests you create can be different from the above example.
 
-Repo:
+### Repo:
 
 GitHub repository: alx-higher_level_programming
 Directory: 0x0C-python-almost_a_circle
 File: tests/
    
-1. Base class
+## 1. Base class
 mandatory
 Write the first class Base:
 
@@ -140,13 +139,13 @@ guillaume@ubuntu:~/$ ./0-main.py
 12
 4
 guillaume@ubuntu:~/$ 
-Repo:
+### Repo:
 
 GitHub repository: alx-higher_level_programming
 Directory: 0x0C-python-almost_a_circle
 File: models/base.py, models/__init__.py
    
-2. First Rectangle
+## 2. First Rectangle
 mandatory
 Write the class Rectangle that inherits from Base:
 
@@ -185,13 +184,13 @@ guillaume@ubuntu:~/$ ./1-main.py
 2
 12
 guillaume@ubuntu:~/$ 
-Repo:
+### Repo:
 
 GitHub repository: alx-higher_level_programming
 Directory: 0x0C-python-almost_a_circle
 File: models/rectangle.py
   
-3. Validate attributes
+## 3. Validate attributes
 mandatory
 Update the class Rectangle by adding validation of all setter methods and instantiation (id excluded):
 
@@ -233,13 +232,13 @@ guillaume@ubuntu:~/$ ./2-main.py
 [TypeError] x must be an integer
 [ValueError] y must be >= 0
 guillaume@ubuntu:~/$ 
-Repo:
+### Repo:
 
 GitHub repository: alx-higher_level_programming
 Directory: 0x0C-python-almost_a_circle
 File: models/rectangle.py
   
-4. Area first
+## 4. Area first
 mandatory
 Update the class Rectangle by adding the public method def area(self): that returns the area value of the Rectangle instance.
 
@@ -264,13 +263,13 @@ guillaume@ubuntu:~/$ ./3-main.py
 20
 56
 guillaume@ubuntu:~/$ 
-Repo:
+### Repo:
 
 GitHub repository: alx-higher_level_programming
 Directory: 0x0C-python-almost_a_circle
 File: models/rectangle.py
   
-5. Display #0
+## 5. Display #0
 mandatory
 Update the class Rectangle by adding the public method def display(self): that prints in stdout the Rectangle instance with the character # - you don’t need to handle x and y here.
 
@@ -300,13 +299,13 @@ guillaume@ubuntu:~/$ ./4-main.py
 ##
 ##
 guillaume@ubuntu:~/$ 
-Repo:
+### Repo:
 
 GitHub repository: alx-higher_level_programming
 Directory: 0x0C-python-almost_a_circle
 File: models/rectangle.py
   
-6. __str__
+## 6. __str__
 mandatory
 Update the class Rectangle by overriding the __str__ method so that it returns [Rectangle] (<id>) <x>/<y> - <width>/<height>
 
@@ -327,13 +326,13 @@ guillaume@ubuntu:~/$ ./5-main.py
 [Rectangle] (12) 2/1 - 4/6
 [Rectangle] (1) 1/0 - 5/5
 guillaume@ubuntu:~/$ 
-Repo:
+### Repo:
 
 GitHub repository: alx-higher_level_programming
 Directory: 0x0C-python-almost_a_circle
 File: models/rectangle.py
   
-7. Display #1
+## 7. Display #1
 mandatory
 Update the class Rectangle by improving the public method def display(self): to print in stdout the Rectangle instance with the character # by taking care of x and y
 
@@ -362,13 +361,13 @@ $
  ###$
  ###$
 guillaume@ubuntu:~/$ 
-Repo:
+### Repo:
 
 GitHub repository: alx-higher_level_programming
 Directory: 0x0C-python-almost_a_circle
 File: models/rectangle.py
   
-8. Update #0
+## 8. Update #0
 mandatory
 Update the class Rectangle by adding the public method def update(self, *args): that assigns an argument to each attribute:
 
