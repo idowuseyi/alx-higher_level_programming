@@ -10,13 +10,8 @@ myArgs.forEach((val, index) => {
   // console.log(`${index}: ${val}`);
   count += 1;
 });
-while (i < count) {
-  if (count < 3) {
-    console.log('No argument');
-    i++;
-    continue;
-  } else {
-    console.log(myArgs[i]);
-    i++;
-  }
+if (count < 3) {
+	console.log('No argument');
+} else {
+	console.log(myArgs[2]);
 }
