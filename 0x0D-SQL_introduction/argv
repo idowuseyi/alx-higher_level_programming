@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+-- script to list all sql databases
+
+param=$1
+echo $param;
