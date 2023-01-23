@@ -1,17 +1,9 @@
 #!/usr/bin/node
-/*
- * script that prints x times “C is fun”
- */
-const arg = process.argv;
-const x = Number(arg[2]);
-console.log(typeof (x));
-let i = 0;
-while (i < x) {
-  if (typeof (x) === 'number') {
-    console.log('C is fun');
-  } else {
-    console.log('Missing number of occurrences');
-    break;
+const x = Math.floor(Number(process.argv[2]));
+if (isNaN(x)) {
+  console.log(Missing number of occurrences);
+} else {
+  for (let i = 0; i < x; i++) {
+    console.log(C is fun);
   }
-  i++;
 }
